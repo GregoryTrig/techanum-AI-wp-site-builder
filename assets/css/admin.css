@@ -1,0 +1,88 @@
+/* Admin styles for Prompt To Page plugin */
+
+.ptp-affiliate-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.ptp-affiliate-link {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.ptp-affiliate-link .button {
+    margin-bottom: 10px;
+}
+
+.ptp-no-api-key-message {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.ptp-no-api-key-message p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.ptp-no-api-key-message .button {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+/* Chat interface styles */
+#ptp-chat-container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.ptp-chat-messages {
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #f9f9f9;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.ptp-message {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.ptp-message-user {
+    background-color: #e3f2fd;
+    border-left: 4px solid #2196f3;
+}
+
+.ptp-message-assistant {
+    background-color: #f1f8e9;
+    border-left: 4px solid #4caf50;
+}
+
+.ptp-chat-input-container {
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+#ptp-chat-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+#ptp-chat-send-button {
+    padding: 10px 20px;
+}
